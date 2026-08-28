@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS tasks (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    done BOOLEAN NOT NULL DEFAULT FALSE
+);
+
+INSERT INTO tasks (title, done) 
+SELECT 'Buy groceries', FALSE WHERE NOT EXISTS (SELECT 1 FROM tasks);
+
+INSERT INTO tasks (title, done) 
+SELECT 'Review PRs', TRUE WHERE NOT EXISTS (SELECT 1 FROM tasks);
+
+INSERT INTO tasks (title, done) 
+SELECT 'Walk the dog', FALSE WHERE NOT EXISTS (SELECT 1 FROM tasks);
