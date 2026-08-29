@@ -1,0 +1,17 @@
+{
+  "start_time": "2026-08-29T13:32:54.550978+00:00",
+  "end_time": "2026-08-29T13:32:57.173643+00:00",
+  "duration_seconds": 2.62,
+  "pages_fetched": 0,
+  "cache_hits": 63,
+  "valid_records": 60,
+  "invalid_records": 0,
+  "failed_pages": 1,
+  "errors": [
+    {
+      "url": "https://books.toscrape.com/catalogue/non-existent-page-test-404.html",
+      "status": 404,
+      "reason": "Client Error / Not Found"
+    }
+  ]
+}
