@@ -12,3 +12,4 @@ Repository for all assignments, capstone projects, and coursework completed duri
 - **A2: SQLite Task CRUD API:** [`backend-track/a2`](./backend-track/a2)
 - **A3: Containerized FastAPI Stack with PostgreSQL:** [`backend-track/a3`](./backend-track/a3)
 - **A4: Auth - Login & protect:** [`backend-track/a4`](./backend-track/a4)
+- **A5: The polite scraper:** [`backend-track/a5`](./backend-track/a5)
